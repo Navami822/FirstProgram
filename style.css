@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    border: 2px dotted;
+    margin:10px 20px 30px 40px;
+    padding:10px 20px 30px 40px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+nav ul li a{
+    text-decoration: underline;
+    transition: ease-in-out 3s;
+    
+}
+#id1{
+    text-decoration:underline ;
+    border:1px chartreuse;
+    background-color:chocolate;
+    color: aliceblue;
+
+}
+nav ul { 
+    display: flex;
+    justify-content:space-around ;
+}
+.para{
+    text-align:center ;
+    line-height:5px;
+
+}
+#id2{
+    width:500px ;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
